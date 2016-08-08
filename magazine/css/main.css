@@ -112,6 +112,7 @@ h1 {
 .articles {
   float:left;
   margin-top: 500px;
+
 }
 .simple {
   margin-top: 500px;
@@ -123,9 +124,23 @@ float: left;
 .barcode{
   float: right;
 }
-
-
-
+.barcode .bottomright{
+  float: right;
+  margin-top: 60px;
+  text-align: right;
+}
+.part1{
+text-align: right;
+margin-top: 100px;
+}
+.rotate{
+transform: rotate(90deg);
+margin-top: 14px;
+margin-left: 5px;
+}
+.title{
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 
