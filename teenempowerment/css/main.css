@@ -1,0 +1,51 @@
+body {
+
+}
+header {
+  background-image: url(../img/img2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pic{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.about.pic{
+  width: 1725px;
+  height:250px;
+  margin: 60px;
+}
+.logo {
+  float: left;
+  height: 70px;
+  width: 90px;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  float: right;
+  justify-content: space-between;
+  width: 35%;
+}
+.navdiv {
+  width: 78%;
+  float: right;
+}
+.nav2 {
+  float: right;
+  width: 20%;
+  clear: both;
+}
+h1 {
+  clear: both;
+}
